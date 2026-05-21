@@ -1,6 +1,6 @@
 { self, inputs, ... }: {
 
-  flake.nixosModules.myMachineConfiguration = { pkgs, lib, ... }: {
+  flake.nixosModules.t14Configuration = { pkgs, lib, ... }: {
     # import any other modules from here
     imports = [
       self.nixosModules.myMachineHardware

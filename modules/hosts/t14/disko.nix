@@ -4,17 +4,14 @@
       nvme0 = {
         type = "disk";
         device = "/dev/nvme0n1";
-
         content = {
           type = "gpt";
-
           partitions = {
             ESP = {
               priority = 1;
               name = "ESP";
               size = "512M";
               type = "EF00";
-
               content = {
                 type = "filesystem";
                 format = "vfat";
@@ -25,7 +22,6 @@
 
             swap = {
               size = "32G";
-
               content = {
                 type = "swap";
                 randomEncryption = true;
@@ -34,14 +30,11 @@
 
             root = {
               size = "100%";
-
               content = {
                 type = "btrfs";
-
                 extraArgs = [ "-f" ];
-
                 subvolumes = {
-                  "@root" = {
+                  "/root" = {
                     mountpoint = "/";
                     mountOptions = [
                       "compress=zstd"
@@ -50,7 +43,7 @@
                     ];
                   };
 
-                  "@home" = {
+                  "/home" = {
                     mountpoint = "/home";
                     mountOptions = [
                       "compress=zstd"
@@ -59,7 +52,7 @@
                     ];
                   };
 
-                  "@nix" = {
+                  "/nix" = {
                     mountpoint = "/nix";
                     mountOptions = [
                       "compress=zstd"
@@ -68,7 +61,7 @@
                     ];
                   };
 
-                  "@var" = {
+                  "/var" = {
                     mountpoint = "/var";
                     mountOptions = [
                       "compress=zstd"
@@ -77,7 +70,7 @@
                     ];
                   };
 
-                  "@log" = {
+                  "/log" = {
                     mountpoint = "/var/log";
                     mountOptions = [
                       "compress=zstd"
