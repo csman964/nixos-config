@@ -42,10 +42,14 @@
       pulse.enable = true;
     };
 
-    # Install firefox.
-    programs.firefox.enable = true;
+    # Enable the OpenSSH daemon.
+    services.openssh.enable = true;
 
-    nixpkgs.config.allowUnfree = true;
+    # Open ports in the firewall.
+    networking.firewall.allowedTCPPorts = [ 22 ];
+    # networking.firewall.allowedUDPPorts = [ ... ];
+    # Or disable the firewall altogether.
+    networking.firewall.enable = true;
 
     system.stateVersion = "25.11";
 
