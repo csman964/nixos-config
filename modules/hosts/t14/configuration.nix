@@ -3,8 +3,8 @@
   flake.nixosModules.t14Configuration = { pkgs, lib, ... }: {
     # import any other modules from here
     imports = [
-      self.nixosModules.myMachineHardware
-      self.nixosModules.niri
+      #self.nixosModules.myMachineHardware
+      #self.nixosModules.niri
       ./hardware-configuration.nix
     ];
 
