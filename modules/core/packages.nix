@@ -22,6 +22,7 @@
     protonvpn-gui
 
     # System monitoring
+    btop
     htop
     strace
 
@@ -37,10 +38,7 @@
     # Build essentials (system-level)
     git
     gnumake
-    vscode
 
-    # Cloud
-    pcloud
   ];
 
   # Allow program to run in ~/.local/bin
@@ -69,43 +67,6 @@
         name = "csman964";
         email = "mdi2611@hotmail.com";
         #signingkey = "~/.ssh/id_ed25519.pub";
-      };
-      gpg.format = "ssh";
-      core = {
-        editor = "nvim";
-        whitespace = "fix,-indent-with-non-tab,trailing-space,cr-at-eol";
-        excludesfile = "~/.gitignore";
-      };
-      commit.gpgsign = false;
-      tag.gpgsign = false;
-      web.browser = "firefox";
-      color = {
-        ui = "auto";
-        branch = {
-          current = "yellow bold";
-          local = "green bold";
-          remote = "cyan bold";
-        };
-        diff = {
-          meta = "yellow bold";
-          frag = "magenta bold";
-          old = "red bold";
-          new = "green bold";
-          whitespace = "red reverse";
-        };
-        status = {
-          added = "green bold";
-          changed = "yellow bold";
-          untracked = "red bold";
-        };
-      };
-      diff = {
-        tool = "vimdiff";
-        colorMoved = "zebra";
-      };
-      alias = {
-        lg = "log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit";
-        am = "commit --amend --no-edit";
       };
       pull.rebase = true;
       fetch.prune = true;

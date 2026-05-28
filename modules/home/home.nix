@@ -22,10 +22,15 @@
     # System utilities
     tree
 
+    # Cloud
+    pcloud
+
     # Search and text processing
+    # yq
+    # jq
 
     # Development tools
-    git-crypt
+    vscode
 
     # Programming languages
     python3
@@ -45,7 +50,6 @@
 
     # Terminal emulator
     kitty
-
 
     # Task management
     taskwarrior2
