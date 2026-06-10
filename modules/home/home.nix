@@ -54,6 +54,7 @@
 
     # Terminal emulator
     kitty
+    terminator
 
     # Task management
     taskwarrior2
