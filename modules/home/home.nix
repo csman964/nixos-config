@@ -36,7 +36,7 @@
 
     # Development tools
     vscode
-    obsidian
+    marktext
 
     # Programming languages
     python3
