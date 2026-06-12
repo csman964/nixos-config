@@ -15,7 +15,6 @@
     gnomeExtensions.places-status-indicator 
     #gnomeExtensions.system-monitor-next
     gnomeExtensions.vitals
-    gnomeExtensions.dock-from-dash
     gnomeExtensions.blur-my-shell
     gnomeExtensions.user-themes
     gnomeExtensions.weather-oclock
@@ -90,6 +89,7 @@
           "quick-settings-tweaks@qwreey"
           "weatheroclock@CleoMenezesJr.github.io"
           "pop-shell@system76.com"
+          "places-menu@gnome-shell-extensions.gcampax.github.com"
         ];
         favorite-apps = [
           "firefox.desktop"
