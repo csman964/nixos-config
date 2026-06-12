@@ -53,6 +53,8 @@
     # Multimedia
     vlc
     deezer-enhanced
+    rhythmbox
+    kdePackages.kdenlive
 
     # Office Suite
     onlyoffice-desktopeditors
