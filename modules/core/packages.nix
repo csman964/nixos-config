@@ -19,7 +19,6 @@
     dnsutils
     traceroute
     net-tools
-    proton-vpn
 
     # System monitoring
     btop

@@ -18,6 +18,8 @@
     # Network tools
     nmap
     ipcalc
+    proton-vpn
+    cifs-utils
 
     # System utilities
     tree
