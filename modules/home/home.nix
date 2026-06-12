@@ -27,6 +27,9 @@
     # Cloud
     pcloud
 
+    # Automation
+    ansible
+
     # Search and text processing
     # yq
     # jq
