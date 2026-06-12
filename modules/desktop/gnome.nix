@@ -65,7 +65,7 @@
         gtk-theme = "Marble-yellow-light";
         icon-theme = "Paper";
         cursor = "Paper";
-        color-scheme = "prefer-light";
+        color-scheme = "prefer-dark";
       };
 
       # Region & Language - Use French formats
@@ -90,6 +90,7 @@
           "weatheroclock@CleoMenezesJr.github.io"
           "pop-shell@system76.com"
           "places-menu@gnome-shell-extensions.gcampax.github.com"
+          "apps-menu@gnome-shell-extensions.gcampax.github.com"
         ];
         favorite-apps = [
           "firefox.desktop"
