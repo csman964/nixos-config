@@ -1,6 +1,7 @@
-{ config, pkgs, username, ... }:
+{ config, pkgs, username, lib, ... }:
 
 {
+
     # Enable and configure libvirtd for virt-manager
     virtualisation.libvirtd = {
         enable = true;
