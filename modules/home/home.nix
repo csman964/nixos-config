@@ -58,6 +58,7 @@
 
     # Office Suite
     onlyoffice-desktopeditors
+    evince
 
     # Terminal emulator
     kitty
