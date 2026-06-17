@@ -5,7 +5,6 @@
     #self.nixosModules.myMachineHardware
     #self.nixosModules.niri
     ./hardware-configuration.nix
-    ./auto-upgrade.nix
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
