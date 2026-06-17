@@ -29,11 +29,17 @@
     };
 
     # Enable automatic system updates
+    # You can check last run by running this command: journalctl -u nixos-upgrade.service -r
+    # In case of this error: error: opening Git repository "/home/csman/nixos-config"
+    # You should create the file /root/.gitignore with this information
+    # [safe]
+    #   directory = /home/csman/nixos-config
+
     system.autoUpgrade = {
         enable = true;
         flake = "/home/${username}/nixos-config";
         flags = [
-        "--update-input" "nixpkgs"
+        "--print-build-logs"
         "--commit-lock-file"
         ];
         dates = "daily";
