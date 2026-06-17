@@ -55,6 +55,7 @@
     deezer-enhanced
     rhythmbox
     kdePackages.kdenlive
+    gimp
 
     # Office Suite
     onlyoffice-desktopeditors
