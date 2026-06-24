@@ -59,6 +59,7 @@
 
     # Office Suite
     onlyoffice-desktopeditors
+    libreoffice
     evince
 
     # Terminal emulator
