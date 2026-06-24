@@ -21,13 +21,6 @@
     # VirtualBox guest additions (only enable on VMs, not physical machines)
     # Set virtualisation.virtualbox.guest.enable = true in host config if needed
 
-    # Enable systemd-resolved for DNS
-    services.resolved = {
-        enable = true;
-        settings.Resolve.DNSSEC = "allow-downgrade";
-        # DNS servers are configured in system.nix via networking.nameservers
-    };
-
     # Enable automatic system updates
     # You can check last run by running this command: journalctl -u nixos-upgrade.service -r
     # In case of this error: error: opening Git repository "/home/csman/nixos-config"
