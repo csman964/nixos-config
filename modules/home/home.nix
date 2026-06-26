@@ -21,8 +21,8 @@
     proton-vpn
     cifs-utils
 
-    # System utilities
-    tree
+    # Security utilities
+    keepassxc
 
     # Cloud
     pcloud
