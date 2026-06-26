@@ -13,6 +13,8 @@
     wget
     rsync
     wirelesstools
+    tree
+    witr
 
     # Network diagnostics (system-level)
     tcpdump
@@ -32,7 +34,7 @@
     apparmor-utils
     openssl
     age
-    keepassxc
+    
 
     # Build essentials (system-level)
     git
