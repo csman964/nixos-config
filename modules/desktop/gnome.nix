@@ -19,7 +19,7 @@
     gnomeExtensions.user-themes
     gnomeExtensions.weather-oclock
     gnomeExtensions.pop-shell
-
+    
     # Theme
     flat-remix-gnome
     flat-remix-icon-theme
