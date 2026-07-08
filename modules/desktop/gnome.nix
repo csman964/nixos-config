@@ -19,6 +19,17 @@
     gnomeExtensions.user-themes
     gnomeExtensions.weather-oclock
     gnomeExtensions.pop-shell
+
+    # Theme
+    flat-remix-gnome
+    flat-remix-icon-theme
+    flat-remix-gtk
+    paper-icon-theme
+    (marble-shell-theme.override {
+      colors = ["yellow"];
+      additionalInstallationTweaks = [ "-O" ];
+    })
+    catppuccin-gtk
   ];
 
     # Remove unwanted GNOME applications (games, etc.)
@@ -62,8 +73,8 @@
         clock-format = "24h";
         clock-show-seconds = true;
         show-battery-percentage = true;
-        gtk-theme = "Marble-yellow-light";
-        icon-theme = "Paper";
+        gtk-theme = "Flat-Remix";
+        icon-theme = "Flat-Remix-Teal-Dark";
         cursor = "Paper";
         color-scheme = "prefer-dark";
       };
@@ -100,7 +111,7 @@
 
       # User theme extension settings
       "org/gnome/shell/extensions/user-theme" = {
-        name = "Marble-yellow-light";
+        name = "Flat-Remix-Dark-fullPanel";
       };
 
       # GNOME Terminal settings
@@ -111,7 +122,7 @@
       # Nautilus (Files) preferences
       "org/gnome/nautilus/preferences" = {
         search-filter-time-type = "last_modified";
-        default-folder-viewer = "icon-view";
+        default-folder-viewer = "list-view";
       };
 
       # Custom keyboard shortcuts
