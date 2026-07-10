@@ -5,6 +5,7 @@
     #self.nixosModules.myMachineHardware
     #self.nixosModules.niri
     ./hardware-configuration.nix
+    ./backup.nix
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
