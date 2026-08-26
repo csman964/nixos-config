@@ -61,6 +61,7 @@
     onlyoffice-desktopeditors
     libreoffice
     evince
+    xournalpp
 
     # Terminal emulator
     kitty
