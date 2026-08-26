@@ -40,7 +40,7 @@
     gnumake
 
     # File system
-    extfat
+    exfat
 
   ];
 
