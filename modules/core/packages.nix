@@ -35,10 +35,12 @@
     openssl
     age
     
-
     # Build essentials (system-level)
     git
     gnumake
+
+    # File system
+    extfat
 
   ];
 

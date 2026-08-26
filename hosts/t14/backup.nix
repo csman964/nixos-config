@@ -20,7 +20,7 @@ let
       --exclude=".local/share/Trash/" \
       --exclude="node_modules/" \
       --exclude="*.tmp" \
-      -e "ssh -i /home/csman/.ssh/id_ed25519" \
+      -e "ssh -i /root/.ssh/id_ed25519" \
       "$SRC" \
       "$DEST"
   '';
