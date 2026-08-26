@@ -41,6 +41,7 @@
 
     # File system
     exfat
+    ntfs3g
 
   ];
 
