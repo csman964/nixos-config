@@ -28,6 +28,15 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+  services.avahi = {
+    enable = true;
+    nssmdns4 = true;
+    openFirewall = true;
+  };
+  services.printing.drivers = [ ];
+  
+  # Enable scanner support
+  hardware.sane.enable = true;
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
