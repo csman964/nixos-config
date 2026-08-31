@@ -63,6 +63,11 @@
     evince
     xournalpp
 
+    # Printing drivers
+    brlaser
+    brother-lpr-drivers
+    brother-cups-wrapper
+
     # Terminal emulator
     kitty
     terminator
