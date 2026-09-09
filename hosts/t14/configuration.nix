@@ -6,6 +6,7 @@
     #self.nixosModules.niri
     ./hardware-configuration.nix
     ./backup.nix
+    ./samba-client.nix
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
