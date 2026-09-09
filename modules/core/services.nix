@@ -32,8 +32,8 @@
         enable = true;
         flake = "/home/${username}/nixos-config";
         flags = [
-        "--print-build-logs"
-        "--commit-lock-file"
+            "--print-build-logs"
+            "--commit-lock-file"
         ];
         dates = "daily";
         randomizedDelaySec = "45min";
