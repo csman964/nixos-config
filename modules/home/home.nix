@@ -46,6 +46,11 @@
     podman
     podman-compose
 
+    # 3D
+    sweethome3d.application
+    sweethome3d.textures-editor
+    sweethome3d.furniture-editor
+
     # Virtualization
     virt-manager
     vagrant
@@ -62,9 +67,6 @@
     libreoffice
     evince
     xournalpp
-
-    # Printing drivers
-    brlaser
 
     # Terminal emulator
     kitty
