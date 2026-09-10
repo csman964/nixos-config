@@ -1,5 +1,8 @@
 { config, pkgs, ... }:
 
+# Warning after a resinstallation be sure to launch one time
+# sudo ssh -i /root/.ssh/id_ed25519 root@192.168.35.200
+
 let
   backupScript = pkgs.writeShellScript "backup-home" ''
     set -euo pipefail
