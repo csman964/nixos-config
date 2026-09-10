@@ -65,7 +65,7 @@
       jetbrains-mono
     ];
 
-    # GNOME dconf settings - migrated from Ansible
+    # GNOME dconf settings
     dconf.settings = {
       # Desktop interface settings
       "org/gnome/desktop/interface" = {
@@ -124,6 +124,11 @@
         search-filter-time-type = "last_modified";
         default-folder-viewer = "list-view";
       };
+
+      # Nautilus (Files) bookmarks
+      home.file.".config/gtk-3.0/bookmarks".text = ''
+        file:///mnt/csman csman
+      '';
 
       # Custom keyboard shortcuts
       "org/gnome/settings-daemon/plugins/media-keys" = {
