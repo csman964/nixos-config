@@ -68,6 +68,7 @@
     # Nautilus (Files) bookmarks
     home.file.".config/gtk-3.0/bookmarks".text = ''
       file:///mnt/csman csman
+      file:///home/${username}/Downloads Downloads
     '';
 
     # GNOME dconf settings
