@@ -23,6 +23,7 @@ let
       --exclude=".local/share/Trash/" \
       --exclude="node_modules/" \
       --exclude="*.tmp" \
+      --exclude="pCloudDrive/" \
       -e "ssh -i /root/.ssh/id_ed25519" \
       "$SRC" \
       "$DEST"
