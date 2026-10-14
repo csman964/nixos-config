@@ -66,18 +66,20 @@
     ];
 
     # Nautilus (Files) bookmarks
-    home.file.".config/gtk-3.0/bookmarks".text = ''
-      file:///home/${username}/_dev _dev
-      file:///home/${username}/Desktop Desktop
-      file:///home/${username}/Documents Documents
-      file:///home/${username}/Downloads Downloads
-      file:///mnt/csman fr-la-nas01_csman
-      file:///home/${username}/Music Music
-      file:///home/${username}/nixos-config nixos-config
-      file:///home/${username}/Pictures Pictures
-      file:///home/${username}/Videos Videos
-
-    '';
+    home.file.".config/gtk-3.0/bookmarks" = {
+      text = ''
+        file:///home/${username}/_dev _dev
+        file:///home/${username}/Desktop Desktop
+        file:///home/${username}/Documents Documents
+        file:///home/${username}/Downloads Downloads
+        file:///mnt/csman fr-la-nas01_csman
+        file:///home/${username}/Music Music
+        file:///home/${username}/nixos-config nixos-config
+        file:///home/${username}/Pictures Pictures
+        file:///home/${username}/Videos Videos
+      '';
+      force = true;
+    };
 
     # GNOME dconf settings
     dconf.settings = {
