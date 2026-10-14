@@ -15,6 +15,7 @@
     wirelesstools
     tree
     witr
+    fd
 
     # Network diagnostics (system-level)
     tcpdump
