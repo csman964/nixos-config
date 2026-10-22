@@ -67,7 +67,7 @@
     libreoffice
     evince
     xournalpp
-    poppler_utils
+    poppler-utils
 
     # Terminal emulator
     kitty
